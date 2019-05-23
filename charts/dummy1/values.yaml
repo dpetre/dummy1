@@ -3,8 +3,8 @@
 # Declare variables to be passed into your templates.
 replicaCount: 2
 image:
-  repository: draft
-  tag: dev
+  repository: docker2-adobe-launch-release-local.dr-uw2.adobeitc.com/dpetre/dummy1
+  tag: 0.0.7
   pullPolicy: IfNotPresent
 
 # define environment variables here as a map of key: value
